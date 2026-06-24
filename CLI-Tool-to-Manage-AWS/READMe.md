@@ -1,18 +1,18 @@
-# 🌩️ AWS Resource Checker
+#  AWS Resource Checker
 
 A beginner-friendly Python script that connects to your AWS account and lists all **EC2 instances** and **S3 buckets** using the **Boto3 SDK**. Built as part of a DevOps internship learning journey.
 
 ---
 
-## 📌 What It Does
+##  What It Does
 
-- ✅ Lists all **EC2 instances** with their Instance ID and current state (running/stopped)
-- ✅ Lists all **S3 buckets** in your AWS account
-- ✅ Connects to AWS programmatically using Python — no AWS Console needed!
+- Lists all **EC2 instances** with their Instance ID and current state (running/stopped)
+- Lists all **S3 buckets** in your AWS account
+-  Connects to AWS programmatically using Python — no AWS Console needed!
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -24,7 +24,7 @@ A beginner-friendly Python script that connects to your AWS account and lists al
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running this script, make sure you have:
 
@@ -34,7 +34,7 @@ Before running this script, make sure you have:
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 **Step 1 — Clone the repository:**
 ```bash
@@ -60,7 +60,7 @@ You will be prompted to enter:
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 Run the script:
 ```bash
@@ -69,7 +69,7 @@ python3 aws_check.py
 
 ---
 
-## 📤 Sample Output
+##  Sample Output
 
 ```
 === EC2 Instances ===
@@ -85,7 +85,7 @@ If no resources exist, the sections will appear empty — which means the script
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 aws configure          →  saves your credentials locally
@@ -99,7 +99,7 @@ The script uses **Boto3** — the official Amazon Web Services SDK for Python �
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 aws-resource-checker/
@@ -110,7 +110,7 @@ aws-resource-checker/
 
 ---
 
-## 🔐 Security Note
+##  Security Note
 
 - Never hardcode your AWS credentials in the script
 - Always use `aws configure` to store credentials securely
@@ -119,7 +119,7 @@ aws-resource-checker/
 
 ---
 
-## 🌱 What I Learned
+##  What I Learned
 
 - Connecting to AWS programmatically using Python and Boto3
 - Working with AWS EC2 and S3 APIs
@@ -129,7 +129,7 @@ aws-resource-checker/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Add support for listing IAM users
 - [ ] Add support for listing Lambda functions
@@ -139,7 +139,8 @@ aws-resource-checker/
 
 ---
 
-## 👩‍💻 Author
+## 
+Author
 
 **Dilukshi Warangana**
 Computer Science Undergraduate — IIT (University of Westminster)
